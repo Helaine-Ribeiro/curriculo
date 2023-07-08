@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    min-height: 100vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container::-webkit-scrollbar{
+    width: 14px;
+    border: 1px solid #069;
+}
+.container::-webkit-scrollbar-thumb{
+    background-color: #069;
+    border-radius: 6px;
+}
+h1 {
+    color: #333;
+ 
+}
+h2 {
+    color: #777;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+    width: 50%;
+    overflow-y: scroll;
+    height: 90vh;
+    padding: 15px 2%;
+    box-shadow: 0 0 5px #069;
+    
+}
+.info-pessoais {
+	padding: 0;
+	text-align: center;
+    border-top: medium dashed #069;
+    
+}
+
+
+.info-objetivo{
+	text-align: justify;
+    
+}
+
+.info-academica {
+    border-top: medium dashed #069;
+	text-align:justify;
+	
+}
+
+.info-academica h2{
+    text-align: center;
+	
+}
+
+.info-tech {
+    border-top: medium dashed #069;
+	text-align:justify;
+}
+
+.info-tech  h2{
+	text-align: center;
+}
+
+
+.info-idiomas{
+    border-top: medium dashed #069;
+	text-align:justify;
+
+}
+.info-idiomas h2{
+    text-align: center;
+
+}
+.info-profissional{
+    border-top: medium dashed #069;
+	text-align:justify;
+}
+
+.info-profissional h2{
+    text-align: center;
+	
+}
+.info-competencias{
+    border-top: medium dashed #069;
+	text-align:justify;
+}
+
+.info-competencias h2{
+    text-align: center;
+
+}
+
+
